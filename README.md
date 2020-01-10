@@ -15,7 +15,11 @@ More info: https://yarnpkg.com
 
 ## Example commands
 
+### Setup deps
+
 `yarn` or `yarn install` = `npm install`
+
+### Install package as dep, dev dep, or globally
 
 `yarn add <...>` = `npm install <...> --save`
 
@@ -23,9 +27,23 @@ More info: https://yarnpkg.com
 
 `yarn global add <...>` = `npm -g install <...>`
 
+### Uninstall package
+
 `yarn remove <...>` = `npm uninstall <...> --save`
 
+### Upgrade package version
+
 `yarn upgrade <...>` = `npm update <...> --save`
+
+### Common commands you might use/customize
+
+`yarn run test` = `npm run test`
+
+`yarn run build` = `npm run build`
+
+`yarn run start` = `npm run start`
+
+### Other stuff
 
 `yarn why` = dependency graph and helps you see if you explicitly added a package
 
