@@ -2,9 +2,11 @@
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
-Install `yarn`: https://yarnpkg.com/en/docs/install
+`yarn` is like `npm`, but better (in my opinion).
 
-Info on how `yarn` relates to `npm`: https://www.sitepoint.com/yarn-vs-npm/ (from 2016)
+If you're already using `npm`, there's [a very minimal migration and learning curve](https://yarnpkg.com/lang/en/docs/migrating-from-npm).
+
+How `yarn` relates to `npm`: https://www.sitepoint.com/yarn-vs-npm/ (from 2016)
 
 More info: https://yarnpkg.com
 
@@ -13,11 +15,13 @@ More info: https://yarnpkg.com
 * Checksums before executing packages.
 * Can work offline for packages you've installed before.
 
-## Example commands
+Install `yarn`: https://yarnpkg.com/en/docs/install
+
+## [Example commands](https://yarnpkg.com/lang/en/docs/migrating-from-npm/#toc-cli-commands-comparison)
 
 ### Setup deps
 
-`yarn` or `yarn install` = `npm install`
+`yarn` or `yarn add` = `npm install`
 
 ### Install package as dep, dev dep, or globally
 
