@@ -14,6 +14,7 @@ More info: https://yarnpkg.com
 * Exact installed versions recorded by default.
 * Checksums before executing packages.
 * Can work offline for packages you've installed before.
+* Less verbose CLI install messages.
 
 Install `yarn`: https://yarnpkg.com/en/docs/install
 
