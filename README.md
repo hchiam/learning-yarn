@@ -15,16 +15,18 @@ More info: https://yarnpkg.com
 
 ## Example commands
 
-`yarn global` = `npm -g`
+`yarn` or `yarn install` = `npm install`
 
-`yarn install` = `npm install`
+`yarn add <...>` = `npm install <...> --save`
 
-`yarn add` = `npm add`
+`yarn add <...> --dev` = `npm install <...> --save-dev`
 
-`yarn add --dev` = `npm add --save-dev`
+`yarn global add <...>` = `npm -g install <...>`
 
-`yarn licenses` (no `npm` equivalent)
+`yarn remove <...>` = `npm uninstall <...> --save`
+
+`yarn upgrade <...>` = `npm update <...> --save`
 
 `yarn why` = dependency graph and helps you see if you explicitly added a package
 
-`yarn upgrade <...>` = `npm update <...>`
+`yarn licenses` (no `npm` equivalent)
