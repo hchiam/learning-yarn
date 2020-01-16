@@ -15,6 +15,7 @@ More info: https://yarnpkg.com
 * Checksums before executing packages.
 * Can work offline for packages you've installed before.
 * Less verbose CLI install messages.
+* A minor downside: older npm packages may not work or be installable.
 
 Install `yarn`: https://yarnpkg.com/en/docs/install
 
