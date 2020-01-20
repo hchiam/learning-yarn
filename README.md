@@ -35,6 +35,8 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 `yarn global add <...>` = `npm -g install <...>`
 
+* _**WARNING**_: it's `global add` and _NOT_ `add global` (`yarn add global` installs a package literally named `global`).
+
 ### Uninstall package
 
 `yarn remove <...>` = `npm uninstall <...> --save`
