@@ -59,4 +59,4 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 `yarn licenses` (no `npm` equivalent)
 
-`yarn upgrade --latest` = upgrade dependencies while ignoring the version range specified in `package.json` (could help with security updates)
+`yarn upgrade --latest` = upgrade dependencies while ignoring the version range specified in `package.json` (could help with security updates) (reminds me of `npm audit fix`
