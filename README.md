@@ -58,3 +58,5 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 `yarn why` = dependency graph and helps you see if you explicitly added a package
 
 `yarn licenses` (no `npm` equivalent)
+
+`yarn upgrade --latest` = upgrade dependencies while ignoring the version range specified in `package.json` (could help with security updates)
