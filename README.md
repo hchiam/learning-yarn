@@ -47,11 +47,11 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 ### Common commands you might use/customize
 
-`yarn run test` = `npm run test`
+`yarn test` = `yarn run test` = `npm run test`
 
-`yarn run build` = `npm run build`
+`yarn build` = `yarn run build` = `npm run build`
 
-`yarn run start` = `npm run start`
+`yarn start` = `yarn run start` = `npm run start`
 
 ### Other stuff
 
