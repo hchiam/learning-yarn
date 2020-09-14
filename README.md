@@ -23,6 +23,8 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 ### Setup deps
 
+`yarn init` = `npm init`
+
 `yarn` or `yarn add` = `npm install`
 
 ([You can use `yarn import` to generate a `yarn.lock` file from an existing `package-lock.json`](https://yarnpkg.com/blog/2018/06/04/yarn-import-package-lock/))
