@@ -10,12 +10,12 @@ How `yarn` relates to `npm`: https://www.sitepoint.com/yarn-vs-npm/ (from 2016)
 
 More info: https://yarnpkg.com
 
-* Concurrency for faster installations.
-* Exact installed versions recorded by default.
-* Checksums before executing packages.
-* Can work offline for packages you've installed before.
-* Less verbose CLI install messages.
-* A minor downside: older npm packages may not work or be installable.
+- Concurrency for faster installations.
+- Exact installed versions recorded by default.
+- Checksums before executing packages.
+- Can work offline for packages you've installed before.
+- Less verbose CLI install messages.
+- A minor downside: older npm packages may not work or be installable.
 
 Install `yarn`: https://yarnpkg.com/en/docs/install
 
@@ -35,7 +35,7 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 `yarn global add <...>` = `npm -g install <...>`
 
-* _**WARNING**_: it's `global add` and _NOT_ `add global` (`yarn add global` installs a package literally named `global`).
+- _**WARNING**_: it's `global add` and _NOT_ `add global` (`yarn add global` installs a package literally named `global`).
 
 ### Uninstall package
 
