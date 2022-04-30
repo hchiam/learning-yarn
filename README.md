@@ -39,6 +39,14 @@ Install `yarn`: https://yarnpkg.com/en/docs/install
 
 - _**WARNING**_: it's `global add` and _NOT_ `add global` (`yarn add global` installs a package literally named `global`).
 
+### Install package without dynamic version (i.e. without caret ^)
+
+`yarn add <package-name> --exact` = `npm install <package-name> --save-exact`
+
+so you get `1.2.3` instead of `^1.2.3` in your `package.json`
+
+https://classic.yarnpkg.com/lang/en/docs/cli/add/#:~:text=yarn%20add%20%3Cpackage...%3E%20%5B--exact%2F-e%5D
+
 ### Uninstall package
 
 `yarn remove <...>` = `npm uninstall <...> --save`
