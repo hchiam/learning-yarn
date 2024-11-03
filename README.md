@@ -70,3 +70,5 @@ https://classic.yarnpkg.com/lang/en/docs/cli/add/#:~:text=yarn%20add%20%3Cpackag
 `yarn licenses` (no `npm` equivalent)
 
 `yarn upgrade --latest` = upgrade dependencies while ignoring the version range specified in `package.json` (could help with security updates) (reminds me of `npm audit fix`
+
+`yarn global list` = check what's been globally installed with yarn
